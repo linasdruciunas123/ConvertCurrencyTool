@@ -29,6 +29,7 @@ namespace ConvertCurrencyTool
         List<CurrencyByValue> tagList = new List<CurrencyByValue>();
         DateTime timeLeft;
         int RSSLinkUpdateInMinutes=60;
+
         public MainForm()
         {
             InitializeComponent();
