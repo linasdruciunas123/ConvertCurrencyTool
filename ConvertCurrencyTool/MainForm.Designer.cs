@@ -34,6 +34,8 @@
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.currencyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.displayHistoricalDatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.displayRatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -54,8 +56,6 @@
             this.labelResult = new System.Windows.Forms.Label();
             this.labelFrom = new System.Windows.Forms.Label();
             this.labelTo = new System.Windows.Forms.Label();
-            this.displayHistoricalDatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.displayRatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelRate = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -104,6 +104,20 @@
             this.currencyToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.currencyToolStripMenuItem.Text = "Currency";
             this.currencyToolStripMenuItem.Click += new System.EventHandler(this.currencyToolStripMenuItem_Click);
+            // 
+            // displayHistoricalDatesToolStripMenuItem
+            // 
+            this.displayHistoricalDatesToolStripMenuItem.Name = "displayHistoricalDatesToolStripMenuItem";
+            this.displayHistoricalDatesToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.displayHistoricalDatesToolStripMenuItem.Text = "Display historical dates";
+            this.displayHistoricalDatesToolStripMenuItem.Click += new System.EventHandler(this.displayHistoricalDatesToolStripMenuItem_Click);
+            // 
+            // displayRatesToolStripMenuItem
+            // 
+            this.displayRatesToolStripMenuItem.Name = "displayRatesToolStripMenuItem";
+            this.displayRatesToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.displayRatesToolStripMenuItem.Text = "Display rates";
+            this.displayRatesToolStripMenuItem.Click += new System.EventHandler(this.displayRatesToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -280,20 +294,6 @@
             this.labelTo.TabIndex = 5;
             this.labelTo.Text = "1";
             this.labelTo.Visible = false;
-            // 
-            // displayHistoricalDatesToolStripMenuItem
-            // 
-            this.displayHistoricalDatesToolStripMenuItem.Name = "displayHistoricalDatesToolStripMenuItem";
-            this.displayHistoricalDatesToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.displayHistoricalDatesToolStripMenuItem.Text = "Display historical dates";
-            this.displayHistoricalDatesToolStripMenuItem.Click += new System.EventHandler(this.displayHistoricalDatesToolStripMenuItem_Click);
-            // 
-            // displayRatesToolStripMenuItem
-            // 
-            this.displayRatesToolStripMenuItem.Name = "displayRatesToolStripMenuItem";
-            this.displayRatesToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.displayRatesToolStripMenuItem.Text = "Display rates";
-            this.displayRatesToolStripMenuItem.Click += new System.EventHandler(this.displayRatesToolStripMenuItem_Click);
             // 
             // labelRate
             // 
